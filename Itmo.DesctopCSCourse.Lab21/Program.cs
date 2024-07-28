@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Itmo.DesctopCSCourse.Lab15
+namespace Itmo.DesctopCSCourse.Lab21
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Itmo.DesctopCSCourse.Lab15
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SecondForm());
+            Application.Run(new MainForm());
         }
     }
 }

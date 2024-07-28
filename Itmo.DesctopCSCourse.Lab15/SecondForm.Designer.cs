@@ -1,6 +1,6 @@
 ﻿namespace Itmo.DesctopCSCourse.Lab15
 {
-    partial class Form1
+    partial class SecondForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.buttonToOpen = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // buttonToOpen
+            // 
+            this.buttonToOpen.Location = new System.Drawing.Point(283, 163);
+            this.buttonToOpen.Name = "buttonToOpen";
+            this.buttonToOpen.Size = new System.Drawing.Size(190, 97);
+            this.buttonToOpen.TabIndex = 0;
+            this.buttonToOpen.Text = "buttonToOpen";
+            this.buttonToOpen.UseVisualStyleBackColor = true;
+            this.buttonToOpen.Click += new System.EventHandler(this.buttonToOpen_Click);
+            // 
+            // SecondForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.buttonToOpen);
+            this.Name = "SecondForm";
+            this.Text = "SecondForm";
+            this.Load += new System.EventHandler(this.SecondForm_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button buttonToOpen;
     }
 }
-

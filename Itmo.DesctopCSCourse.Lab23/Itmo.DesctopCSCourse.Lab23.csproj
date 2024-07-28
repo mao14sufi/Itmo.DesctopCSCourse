@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{794A52BD-0F97-44A9-9F08-C2587F1A33D1}</ProjectGuid>
+    <ProjectGuid>{F4FD6B75-6880-4C0D-8D1E-CAF7106E6576}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Itmo.DesctopCSCourse.Lab13</RootNamespace>
-    <AssemblyName>Itmo.DesctopCSCourse.Lab13</AssemblyName>
+    <RootNamespace>Itmo.DesctopCSCourse.Lab23</RootNamespace>
+    <AssemblyName>Itmo.DesctopCSCourse.Lab23</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InheretedForm.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InheretedForm.Designer.cs">
-      <DependentUpon>InheretedForm.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="InheretedForm.resx">
-      <DependentUpon>InheretedForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -78,12 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Itmo.DesctopCSCourse.Lab11\Itmo.DesctopCSCourse.Lab11.csproj">
-      <Project>{f0d977fc-9bdd-480b-b49b-e5944ffd1b6e}</Project>
-      <Name>Itmo.DesctopCSCourse.Lab11</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
