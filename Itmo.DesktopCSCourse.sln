@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.DesktopCSCourse.Lab25"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.DesktopCSCourse.MdiApplication", "Itmo.DesktopCSCourse.MdiApplication\Itmo.DesktopCSCourse.MdiApplication.csproj", "{9C8764CF-AED5-4ACE-B2A7-586D6AFDCC97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.DesktopCSCourse.WPFUnit1", "Itmo.DesktopCSCourse.WPFUnit1\Itmo.DesktopCSCourse.WPFUnit1.csproj", "{7CD09BB1-9618-43E4-91AF-9C184CB80A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.DesktopCSCourse.WPFUnit13", "Itmo.DesktopCSCourse.WPFUnit13\Itmo.DesktopCSCourse.WPFUnit13.csproj", "{CD6DE77C-654F-4A36-8410-BAB73AFD1DDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{9C8764CF-AED5-4ACE-B2A7-586D6AFDCC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C8764CF-AED5-4ACE-B2A7-586D6AFDCC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C8764CF-AED5-4ACE-B2A7-586D6AFDCC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD09BB1-9618-43E4-91AF-9C184CB80A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD09BB1-9618-43E4-91AF-9C184CB80A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD09BB1-9618-43E4-91AF-9C184CB80A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD09BB1-9618-43E4-91AF-9C184CB80A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6DE77C-654F-4A36-8410-BAB73AFD1DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6DE77C-654F-4A36-8410-BAB73AFD1DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6DE77C-654F-4A36-8410-BAB73AFD1DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6DE77C-654F-4A36-8410-BAB73AFD1DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
