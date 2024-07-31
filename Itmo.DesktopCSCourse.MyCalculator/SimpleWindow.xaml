@@ -1,0 +1,82 @@
+﻿<Window x:Class="wpfcacl.SimpleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfcacl"
+        mc:Ignorable="d"
+        Title="Simple Calculator" Height="400" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="15*"/>
+
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
+        <Menu Grid.Column="1" Grid.RowSpan="2" Background="White">
+            <MenuItem Header="Menu">
+                <MenuItem Header="Math Calculator" Click="MenuItem_Click1"></MenuItem>
+                <MenuItem Header="Exit" Click="MenuItem_Click2"></MenuItem>
+
+            </MenuItem>
+
+
+
+        </Menu>
+
+        <Button x:Name="KeyPower" Grid.Column="1" Content="x^y" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Stretch" Visibility="Hidden"/>
+        <Button x:Name="KeyReciprocal" Grid.Column="1" Content="1/x" HorizontalAlignment="Stretch"  Grid.Row="5" VerticalAlignment="Stretch"  Visibility="Hidden" />
+        <Button x:Name="KeyOne" Grid.Column="1" Content="1" HorizontalAlignment="Stretch"  Grid.Row="7" VerticalAlignment="Stretch" Click="KeyOne_Click" />
+        <Button x:Name="KeyFour" Grid.Column="1" Content="4" HorizontalAlignment="Stretch"  Grid.Row="9" VerticalAlignment="Stretch" Click="KeyFour_Click" />
+        <Button x:Name="KeySeven" Grid.Column="1" Content="7" HorizontalAlignment="Stretch"  Grid.Row="11" VerticalAlignment="Stretch" Click="KeySeven_Click" />
+        <Button x:Name="KeySign" Grid.Column="1" Content="+-" HorizontalAlignment="Stretch"  Grid.Row="13" VerticalAlignment="Stretch" Click="KeySign_Click" />
+
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Stretch" Visibility="Hidden"/>
+        <Button x:Name="KeyPowerSquared" Grid.Column="3" Content="x^2" HorizontalAlignment="Stretch"  Grid.Row="5" VerticalAlignment="Stretch"  Visibility="Hidden"/>
+        <Button x:Name="KeyTwo" Grid.Column="3" Content="2" HorizontalAlignment="Stretch"  Grid.Row="7" VerticalAlignment="Stretch" Click="KeyTwo_Click" />
+        <Button x:Name="KeyFive" Grid.Column="3" Content="5" HorizontalAlignment="Stretch"  Grid.Row="9" VerticalAlignment="Stretch" Click="KeyFive_Click" />
+        <Button x:Name="KeyEight" Grid.Column="3" Content="8" HorizontalAlignment="Stretch"  Grid.Row="11" VerticalAlignment="Stretch" Click="KeyEight_Click" />
+        <Button x:Name="KeyZero" Grid.Column="3" Content="0" HorizontalAlignment="Stretch"  Grid.Row="13" VerticalAlignment="Stretch" Click="KeyZero_Click" />
+
+        <Button x:Name="KeyClear" Grid.Column="7" Content="C" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Stretch" Click="KeyClear_Click"  />
+        <Button x:Name="KeySqrt" Grid.Column="5" Content="√" HorizontalAlignment="Stretch"  Grid.Row="5" VerticalAlignment="Stretch"  Visibility="Hidden"/>
+        <Button x:Name="KeyThree" Grid.Column="5" Content="3" HorizontalAlignment="Stretch"  Grid.Row="7" VerticalAlignment="Stretch" Click="KeyThree_Click" />
+        <Button x:Name="KeySix" Grid.Column="5" Content="6" HorizontalAlignment="Stretch"  Grid.Row="9" VerticalAlignment="Stretch" Click="KeySix_Click" />
+        <Button x:Name="KeyNine" Grid.Column="5" Content="9" HorizontalAlignment="Stretch"  Grid.Row="11" VerticalAlignment="Stretch" Click="KeyNine_Click" />
+        <Button x:Name="KeyPoint" Grid.Column="5" Content="." HorizontalAlignment="Stretch"  Grid.Row="13" VerticalAlignment="Stretch" Click="KeyPoint_Click" />
+
+        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Stretch" Visibility="Hidden"/>
+        <Button x:Name="KeyDivide" Grid.Column="7" Content="/" HorizontalAlignment="Stretch"  Grid.Row="5" VerticalAlignment="Stretch" Click="KeyDivide_Click" />
+        <Button x:Name="KeyMultiply" Grid.Column="7" Content="*" HorizontalAlignment="Stretch"  Grid.Row="7" VerticalAlignment="Stretch" Click="KeyMultiply_Click" />
+        <Button x:Name="KeyMinus" Grid.Column="7" Content="-" HorizontalAlignment="Stretch"  Grid.Row="9" VerticalAlignment="Stretch" Click="KeyMinus_Click" />
+        <Button x:Name="KeyPlus" Grid.Column="7" Content="+" HorizontalAlignment="Stretch"  Grid.Row="11" VerticalAlignment="Stretch" Click="KeyPlus_Click" />
+        <Button x:Name="KeyEqual" Grid.Column="7" Content="=" HorizontalAlignment="Stretch"  Grid.Row="13" VerticalAlignment="Stretch" Click="KeyEqual_Click" />
+
+        <Label x:Name="Display" Content="0" Grid.Column="3" Grid.Row="1"  Grid.ColumnSpan="7" HorizontalContentAlignment="Right" FontSize="20" />
+
+    </Grid>
+</Window>

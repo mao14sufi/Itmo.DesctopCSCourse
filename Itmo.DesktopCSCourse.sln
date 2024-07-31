@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.DesktopCSCourse.WPFUni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.DesktopCSCourse.WPFUnit8", "Itmo.DestopCSCourse.WPFUnit8\Itmo.DesktopCSCourse.WPFUnit8.csproj", "{516C64D7-D14F-4CDD-A322-19DD15E18BF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itmo.DesktopCSCourse.MyCalculator", "Itmo.DesktopCSCourse.MyCalculator\Itmo.DesktopCSCourse.MyCalculator.csproj", "{045E4EA6-C4A3-4D1A-A464-50A122E6DC6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{516C64D7-D14F-4CDD-A322-19DD15E18BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516C64D7-D14F-4CDD-A322-19DD15E18BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516C64D7-D14F-4CDD-A322-19DD15E18BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045E4EA6-C4A3-4D1A-A464-50A122E6DC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045E4EA6-C4A3-4D1A-A464-50A122E6DC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045E4EA6-C4A3-4D1A-A464-50A122E6DC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045E4EA6-C4A3-4D1A-A464-50A122E6DC6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

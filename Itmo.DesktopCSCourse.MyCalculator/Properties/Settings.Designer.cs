@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Itmo.DesktopCSCourse.MyCalculator.Properties
+namespace wpfcacl.Properties
 {
 
 

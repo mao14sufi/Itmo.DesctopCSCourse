@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Itmo.DesktopCSCourse.MyCalculator.Properties
+namespace wpfcacl.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Itmo.DesktopCSCourse.MyCalculator.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Itmo.DesktopCSCourse.MyCalculator.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("wpfcacl.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
